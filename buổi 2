@@ -1,1 +1,23 @@
+<?php
+echo (min (0,150,-20));
+echo(abs(-88));// hàm trả về giá trị tuyệt đối
+echo(sqrt(64)); //hàm căn bậc hai
+//hàm round làm tròn đến số nguyên gần nhất
+echo(round(0.7899));
+echo(rand(10,100));// tạo ra số ngẫu nhiên
+// define có thể nằm trong khối câu lệnh khác, còn const không thể
+define("cars", [
+  "Alfa Romeo",
+  "BMW",
+  "Toyota"
+]);
+echo cars[0];
+// viết tắt của câu lệnh if else
+
+$a = 13;
+
+$b = $a < 10 ? "Hello" : "Good Bye";
+
+echo $b;
+?>
 
